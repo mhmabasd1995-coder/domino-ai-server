@@ -1,1 +1,13 @@
-
+{
+  "name": "domino-ai-server",
+  "version": "1.0.0",
+  "description": "Domino AI Gemini Backend",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "express": "^4.21.2"
+  }
+}
